@@ -27,7 +27,7 @@ def insert_inventory(): # inserir o inventario
             center = pg.center(inventory_text_area)
             
             pg.click(center)
-            pg.write("200000024508")
+            pg.hotkey('ctrl', 'v')
             pg.press('enter')
             
             return
