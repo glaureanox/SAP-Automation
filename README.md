@@ -33,7 +33,7 @@
        Preencha o campo "Utilização" com o número **4 (Manutenção)**.  
        Aperte **Enter**.  
        Selecione uma linha vazia para adicionar as informações do equipamento.  
-       Aperte **Ctrl + L**.  
+       Preencha o campo "Ctl" com a letra **L**.  
        Componente = Part Number (PN) do material encontrado na página do workon.  
        Quantidade = **1**.  
        Aperte **Enter** e depois **Ctrl + S**.
@@ -44,7 +44,7 @@
        Preencha o campo "Utilização" com o número **4 (Manutenção)**.  
        Aperte **Enter**.  
        Selecione uma linha vazia para adicionar as informações do equipamento.  
-       Aperte **Ctrl + L**.  
+       Preencha o campo "Ctl" com a letra **L**.  
        Componente = Part Number (PN) do material encontrado na página do workon.  
        Quantidade = **1**.  
        Aperte **Enter** e depois **Ctrl + S**.
