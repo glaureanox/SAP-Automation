@@ -1,5 +1,7 @@
 # Mapeamento do Processo
 
+---
+
 ## Versão em Português
 
 1. **E-mail Recebido**  
@@ -50,52 +52,3 @@
        Aperte **Enter** e depois **Ctrl + S**.
 
 ---
-
-## Process Mapping:
-
-1. **Received Email**  
-   Receive the workon request in the inbox.
-
-2. **Access Workon**  
-   Open workon in the browser.
-
-3. **Copy Inventory**  
-   Copy the inventory where the material will be inserted.
-
-4. **Paste in Transaction IH03**  
-   Paste it into transaction IH03 in the first field.
-
-5. **Check Checklists**  
-   Check all boxes in the checklist.
-
-6. **Pull Inventory Data**  
-   Click on the clock to pull the inventory data.
-
-7. **Find Subset**  
-   Find the specified subset in workon. If not found, use the subset **"PECA"**.
-
-8. **Copy Inventory with Subset**  
-   Copy the inventory with the subset.
-
-9. **Is there any equipment within this subset?**
-   - **YES:**  
-     - **Transaction IB02:**  
-       Paste the inventory number with the subset in the "Equipment" area.  
-       Fill in the "Utilization" field with the number **4 (Maintenance)**.  
-       Press **Enter**.  
-       Select an empty row to add the equipment information.  
-       Press **Ctrl + L**.  
-       Component = Part Number (PN) of the material found on the workon page.  
-       Quantity = **1**.  
-       Press **Enter** and then **Ctrl + S**.
-
-   - **NO:**  
-     - **Transaction IB01:**  
-       Paste the inventory number with the subset in the "Equipment" area.  
-       Fill in the "Utilization" field with the number **4 (Maintenance)**.  
-       Press **Enter**.  
-       Select an empty row to add the equipment information.  
-       Press **Ctrl + L**.  
-       Component = Part Number (PN) of the material found on the workon page.  
-       Quantity = **1**.  
-       Press **Enter** and then **Ctrl + S**.
