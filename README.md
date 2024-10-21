@@ -1,7 +1,5 @@
 # Mapeamento do Processo
 
----
-
 ## Versão em Português
 
 1. **E-mail Recebido**  
