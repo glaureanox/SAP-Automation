@@ -1,8 +1,6 @@
 # Mapeamento do Processo
 
-[Versão em Português](#portuguese) | [Version in English](#english)
-
-## Mapeamento do Processo:
+## Versão em Português
 
 1. **E-mail Recebido**  
    Receber o pedido de workon na caixa de entrada.
