@@ -12,6 +12,8 @@ def read_workon_info_inventory():
             pg.moveTo(x=x, y=y)
             pg.click(clicks=2, interval=0.20)
             pg.hotkey('ctrl', 'c')
+            
+            return
         
         except Exception as e:
             print(f"Something deu errado: {e}")

@@ -18,11 +18,28 @@ def open_transaction():
         except Exception as e:
             print(f"Não foi possível abrir a transação.: {e}")
             
+def delete_text():
+    while True:
+        try:
+            equip_area = pg.locateOnScreen("./img/third_part/equip_area.png", confidence=0.8)
+            
+            x = equip_area.left + equip_area.width
+            y = equip_area.top + equip_area.height // 2
+
+            pg.moveTo(x=x, y=y)
+            pg.click()
+            pg.hotkey('ctrl', 'a')
+            pg.press('delete')
+            
+            return
+            
+        except Exception as e:
+            print(f"Não foi possível apagar os dados.: {e}")    
             
 def insert_inventory(): # inserir o inventario
     while True:
         try:
-            inventory_text_area = pg.locateOnScreen("./img/first_part/inventory/insert_inventory.png", confidence=0.7)
+            inventory_text_area = pg.locateOnScreen("./img/first_part/inventory/insert_inventory.png", confidence=0.8)
             
             center = pg.center(inventory_text_area)
             
@@ -69,6 +86,7 @@ def send_informations(): # enviar as informacoes preenchidas
         
 
 # open_transaction() 
-insert_inventory()   
-find_square_and_check()
-send_informations()
+# insert_inventory()   
+# find_square_and_check()
+# send_informations()
+delete_text()
